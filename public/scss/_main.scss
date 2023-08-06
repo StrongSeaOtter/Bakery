@@ -1,0 +1,126 @@
+main {
+    section.angebote {
+        display: flex;
+        max-width: calc(1440px - 4rem);
+        margin: auto;
+        gap: 2rem;
+        padding: 4rem 2rem 8rem 2rem;
+        @media (max-width: $size-medium) {
+            flex-direction: column;
+            padding-bottom: 4rem;
+        }
+        figure {
+            width: 33%;
+            @media (max-width: $size-medium) {
+                width: 80%;
+                align-self: center;
+                margin-bottom: 4rem;
+            }
+            @media (max-width: $size-small) {
+                width: 100%;
+            }
+            position: relative;
+            div.image-wrapper {
+                border-radius: 1rem;
+                overflow: hidden;
+            }
+            &:hover img {
+                -webkit-transform: scale(1.25);
+                -moz-transform: scale(1.25);
+                -ms-transform: scale(1.25);
+                -o-transform: scale(1.25);
+                transform: scale(1.25);
+            }
+            img {
+                width: 100%;
+                aspect-ratio: 1/1;
+                object-fit: cover;
+                
+                display: block;
+
+                -webkit-transition: all 1s ease;
+                -moz-transition: all 1s ease;
+                -ms-transition: all 1s ease;
+                -o-transition: all 1s ease;
+                transition: all 1s ease;
+            }
+            figcaption {
+                display: flex;
+                align-items: center;
+                position: absolute;
+                left: 2rem;
+                bottom: -4rem;
+                width: calc(100% - 4rem);
+                min-height: 8rem;
+                padding: 0 2rem;
+                background-color: $coffee;
+                border-radius: 1rem;
+
+                div {
+                    width: 100%;
+                }
+
+                @media (max-width: $size-medium) {
+                    bottom: -4rem;
+                }
+                
+                h2, p {
+                    color: white;
+                    text-align: center;
+                    padding: 0.5rem 0;
+                }
+                h2 {
+                    border-bottom: 1px solid white;
+                }
+                p {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    section.ueber-uns {
+        display: flex;
+        background-color: $sand-brown;
+        @media (max-width: $size-medium) {
+            flex-direction: column-reverse;
+        }
+        div, figure {
+            width: 50%;
+            @media (max-width: $size-medium) {
+                width: 100%;
+            }
+        }
+        div {
+            align-self: center;
+            div.ueber-uns-text {
+                width: 70%;
+                margin: auto;
+                text-align: center;
+
+                @media (max-width: $size-medium) {
+                    padding: 2rem 0;
+                }
+
+                h3, p {
+                    padding: 1rem 0;
+                    color: white;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        figure img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+            aspect-ratio: 4/3;
+            @media (max-width: $size-medium) {
+                aspect-ratio: 16/9;
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+nav {
+    display: flex;
+    max-width: calc(1440px - 4rem);
+    padding: 2rem;
+    height: 14rem;
+    margin: auto;
+    gap: 2rem;
+
+    @media (max-width: $size-small) {
+        gap: 0;
+        padding: 1rem;
+    }
+
+    ul, div.logo {
+        display: flex;
+        align-items: center;
+    }
+
+    ul {
+        width: 100%;
+    }
+
+    ul.menu {
+        @media (max-width: $size-medium) {
+            display: none;
+        }
+        li {
+            width: 33%;
+            text-align: center;
+
+            a {
+                display: block;
+                font-size: 1.5rem;
+                @media (max-width: $size-desktop) {
+                    font-size: 1.25rem;
+                }
+                padding: 1rem 0;
+                &:hover {
+                    border: 0.25rem dashed $coffee;
+                    border-radius: 1rem;
+                }
+            }
+        }
+    }
+
+    ul.mobile-menu {
+        display: none;
+        @media (max-width: $size-medium) {
+            display: flex;
+            justify-content: end;
+            gap: 2rem;
+        }
+        @media (max-width: $size-small) {
+            gap: 0;
+        }
+        img {
+            @media (max-width: $size-small) {
+                width: 48px;
+            }
+        }
+    }
+}

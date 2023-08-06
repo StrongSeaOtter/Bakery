@@ -1,0 +1,53 @@
+/* base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+/* "neue" HTML5 Elements */
+header, main, nav, aside, article, footer, figure, figcaption {
+    display: block;
+}
+
+body {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+
+    font-family: 'Poor Story', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    background-color: $peach-orange;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}

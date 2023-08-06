@@ -1,0 +1,101 @@
+footer {
+    display: flex;
+    padding: 2rem;
+    max-width: calc(1440px - 4rem);
+    margin: auto;
+    gap: 10rem;
+    @media (max-width: $size-desktop) {
+        gap: 2rem;
+    }
+    @media (max-width: $size-medium) {
+        flex-direction: column;
+    }
+    > div {
+        width: 33%;
+        @media (max-width: $size-medium) {
+            width: 80%;
+        }
+        @media (max-width: $size-small) {
+            width: 100%;
+        }
+    }
+    div.kontakt {
+        @media (max-width: $size-medium) {
+            text-align: center;
+            align-self: center;
+        }
+        ul {
+            display: flex;
+            padding: 1rem 0;
+            gap: 1rem;
+            align-items: center;
+            li {
+                @media (max-width: $size-medium) {
+                    width: 33%;
+                }
+            }
+        }
+    }
+    div.logo {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @media (max-width: $size-medium) {
+            order: 2;
+            align-self: center;
+        }
+        ul {
+            display: flex;
+            li {
+                width: 33%;
+                @media (max-width: $size-small) {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    div.newsletter {
+        @media (max-width: $size-medium) {
+            text-align: center;
+            align-self: center;
+        }
+        form {
+            padding: 1rem 0 0 0;
+            flex-direction: column;
+
+            input, button {
+                display: block;
+                height: 2.5rem;
+                padding: 0 1rem;
+                border-radius: 1.25rem;
+                border: none;
+                outline: none;
+                font-size: 1rem;
+            }
+
+            input {
+                width: 100%;
+                background-color: #F8F2E6;
+            }
+
+            button {
+                margin-top: 0.5rem;
+                float: right;
+                background-color: $sand-brown;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                @media (max-width: $size-small) {
+                    width: 100%;
+                }
+                &::before {
+                    content: '';
+                    width: 2rem;
+                    height: 2rem;
+                    background-image: url('../img/mail_send_line.svg');
+                }
+            }
+        }
+    }
+}

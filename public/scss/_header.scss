@@ -1,0 +1,44 @@
+header {
+    background-image: url(../img/different-types-bread-made-from-wheat-flour.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: calc(100vh - 14rem);
+    position: relative;
+
+    div {
+        position: absolute;
+        bottom: 4rem;
+        left: 25%;
+        width: 50%;
+        @media (max-width: $size-medium) {
+            left: 10%;
+            width: 80%;
+        }
+        @media (max-width: $size-small) {
+            bottom: 2rem;
+        }
+        text-align: center;
+        background-color: transparentize($coffee, 0.75);
+        padding: 1rem;
+        border-radius: 1rem;
+        backdrop-filter: blur(0.25rem);
+
+        h1, p {
+            color: white;
+            text-shadow: 0.25rem 0.25rem 0.75rem black;
+        }
+
+        h1 {
+            @media (max-width: $size-desktop) {
+                font-size: 4rem;
+            }
+        }
+        p {
+            font-size: 2rem;
+            @media (max-width: $size-desktop) {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
