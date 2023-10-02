@@ -43,4 +43,4 @@ This cute and customizable bakery shop website template was designed and develop
 
 ## License
 
-This template is provided under the [GNU GENERAL PUBLIC LICENSE](LICENSE). You are free to use, modify, and distribute it as per the terms of the license. If you have any questions or need assistance with web development, please [contact us](mailto:jieyi.mai@strongotter.com). Enjoy creating your bakery website!
+This template is provided under the [GNU GENERAL PUBLIC LICENSE](LICENSE). You are free to use, modify, and distribute it as per the terms of the license. If you have any questions or need assistance with web development, please [contact me](mailto:jieyi.mai@strongotter.com). Enjoy creating your bakery website!
