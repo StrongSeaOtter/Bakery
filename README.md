@@ -34,6 +34,13 @@ Welcome to the Online Bakery Shop Website Design project! This website template 
 
 This cute and customizable bakery shop website template was designed and developed by [StrongOtter]. It is intended to help you create a delightful online presence for your bakery business. Feel free to use, modify, and adapt this template for your bakery's website.
 
+<a href="https://www.freepik.com/free-vector/bakery-black-white-emblems_9463308.htm#query=bakery%20logo&position=8&from_view=search&track=ais">Image by macrovector</a> on Freepik
+<a href="https://www.freepik.com/free-photo/different-types-bread-made-from-wheat-flour_7220003.htm#query=bread&position=4&from_view=search&track=sph">Image by KamranAydinov</a> on Freepik
+<a href="https://www.freepik.com/free-photo/delicious-sweet-cake-with-strawberries-baiser-plate_17247381.htm#query=cake&position=35&from_view=search&track=sph">Image by wirestock</a> on Freepik
+<a href="https://www.freepik.com/free-photo/hot-tendir-bread-table_7136372.htm#query=iran%20bread&position=0&from_view=search&track=ais">Image by KamranAydinov</a> on Freepik
+<a href="https://www.freepik.com/free-photo/delicious-bread-bagels-eggs-table_6356310.htm#query=bread&position=11&from_view=author">Image by Racool_studio</a> on Freepik
+<a href="https://www.freepik.com/free-photo/bread-baking-industry-tasty-pastry_6640065.htm#query=bakery&position=49&from_view=search&track=sph">Image by senivpetro</a> on Freepik
+
 ## License
 
 This template is provided under the [GNU GENERAL PUBLIC LICENSE](LICENSE). You are free to use, modify, and distribute it as per the terms of the license. If you have any questions or need assistance with web development, please [contact us](mailto:jieyi.mai@strongotter.com). Enjoy creating your bakery website!
